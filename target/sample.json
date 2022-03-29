@@ -1,0 +1,255 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 29361260400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "validating login with correct username and correct passwoord",
+        "description": "",
+        "id": "validating-login-function-of-adactin-webpage;validating-login-with-correct-username-and-correct-passwoord;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 343300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 950404600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on adacting page on chrome",
+            "match": {
+              "location": "StepDefinition3.user_is_on_adacting_page_on_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 685097500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter \"SuryaVijay47\" and \"VijaySurya@47\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SuryaVijay47\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"VijaySurya@47\"",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDefinition3.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5629825600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should click on login button",
+            "match": {
+              "location": "StepDefinition3.user_should_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 485400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should validate home page screen is visible or not",
+            "match": {
+              "location": "StepDefinition3.user_should_validate_home_page_screen_is_visible_or_not()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3465878600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on search page ,enter \"Adelaide\",\"Hotel Hervey\",\"Double\",\"5 - Five\",\"29/03/2022\",\"1/04/2022\",\"3 - Three\",\"2 - Two\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Adelaide\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"Hotel Hervey\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"5 - Five\"",
+                  "offset": 65
+                },
+                {
+                  "val": "\"29/03/2022\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"1/04/2022\"",
+                  "offset": 89
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 101
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 113
+                }
+              ],
+              "location": "StepDefinition3.user_is_on_search_page_enter(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2461635900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on search button",
+            "match": {
+              "location": "StepDefinition3.user_clicks_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 116900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user user should validate second page screen is visible or not",
+            "match": {
+              "location": "StepDefinition3.user_user_should_validate_second_page_screen_is_visible_or_not()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1186405200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should click on radio button and click on continue button",
+            "match": {
+              "location": "StepDefinition3.user_should_click_on_radio_button_and_click_on_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1401483300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user is on payment page ,enter \"Arjun\",\"Ram\",\"chennai\",\"1234567891234567\",\"Master Card\",\"February\",\"2022\",\"675\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Arjun\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"Ram\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"chennai\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"1234567891234567\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"Master Card\"",
+                  "offset": 74
+                },
+                {
+                  "val": "\"February\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 99
+                },
+                {
+                  "val": "\"675\"",
+                  "offset": 106
+                }
+              ],
+              "location": "StepDefinition3.user_is_on_payment_page_enter(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7120918800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks book now button",
+            "match": {
+              "location": "StepDefinition3.user_clicks_book_now_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 127771800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "get oder id",
+            "match": {
+              "location": "StepDefinition3.get_oder_id()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "validating login function of adactin webpage",
+    "description": "",
+    "id": "validating-login-function-of-adactin-webpage",
+    "keyword": "Feature",
+    "uri": "src/test/resources/adactinlogin.feature",
+    "tags": []
+  }
+]

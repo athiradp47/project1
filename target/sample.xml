@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="52.397385">
+<testcase classname="validating login function of adactin webpage" name="validating login with correct username and correct passwoord" time="52.397385">
+<system-out><![CDATA[Given user is on adacting page on chrome....................................passed
+When user enter "SuryaVijay47" and "VijaySurya@47"..........................passed
+And user should click on login button.......................................passed
+Then user should validate home page screen is visible or not................passed
+When user is on search page ,enter "Adelaide","Hotel Hervey","Double","5 - Five","29/03/2022","1/04/2022","3 - Three","2 - Two".passed
+And user clicks on search button............................................passed
+Then user user should validate second page screen is visible or not.........passed
+And user should click on radio button and click on continue button..........passed
+When user is on payment page ,enter "Arjun","Ram","chennai","1234567891234567","Master Card","February","2022","675".passed
+And user clicks book now button.............................................passed
+Then get oder id............................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
