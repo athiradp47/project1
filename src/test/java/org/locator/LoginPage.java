@@ -18,7 +18,7 @@ public class LoginPage extends BaseClass {
 	private WebElement pass;
 	
 	@FindBy(xpath = "//input[@name='login']")
-	private WebElement btnsearch;
+	private WebElement btnlogin;
 
 	public WebElement getUser() {
 		return user;
@@ -29,7 +29,7 @@ public class LoginPage extends BaseClass {
 	}
 
 	public WebElement getBtnsearch() {
-		return btnsearch;
+		return btnlogin;
 	}
 	
 
