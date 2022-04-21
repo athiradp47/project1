@@ -28,11 +28,15 @@ public class Hooks extends BaseClass {
 		}
 		driver.close();
 		
+<<<<<<< HEAD
+ System.out.println("hiiii");
+=======
 		System.out.println("hiiiiiiiii");
 		
 		
 		
 
+>>>>>>> 7d2bbe5c850969694ccd9a0f18f7ed20da0c7179
 	}
 
 }
